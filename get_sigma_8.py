@@ -3,14 +3,12 @@ from camb import model
 import numpy as np
 
 from cobaya.yaml import yaml_load_file
-import arviz as az
 
 # Export the results to GetDist
 from getdist.mcsamples import loadMCSamples
 
 # Notice loadMCSamples requires a *full path*
 import os
-
 import argparse
 
 
