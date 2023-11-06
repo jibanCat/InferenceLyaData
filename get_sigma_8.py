@@ -1,6 +1,7 @@
 import camb
 from camb import model
-import classylss.binding as CLASS
+
+# import classylss.binding as CLASS
 
 import numpy as np
 
