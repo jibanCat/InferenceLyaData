@@ -65,7 +65,7 @@ def main(path_yaml_load_file, folder_dir: str = "Chains/fps-meant/"):
 
         sigma_8_samples.append(sigma_8)
 
-    return sigma_8_samples
+    return np.array(sigma_8_samples)
 
 
 if __name__ == "__main__":
