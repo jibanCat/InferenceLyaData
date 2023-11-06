@@ -1,5 +1,7 @@
 import camb
 from camb import model
+import classylss.binding as CLASS
+
 import numpy as np
 
 from cobaya.yaml import yaml_load_file
@@ -91,4 +93,4 @@ if __name__ == "__main__":
 
     sigma_8_samples = main(args.path_yaml_load_file, args.folder_dir)
 
-    np.savetxt("sigma_8")
+    np.savetxt(args.outfile_name, sigma_8_samples)
